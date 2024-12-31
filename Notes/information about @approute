@@ -1,0 +1,8 @@
+@app.route in Flask is a decorator that defines the URL path for a specific function.
+It maps a URL endpoint to a Python function, meaning when a user accesses that URL,
+Flask runs the corresponding function and returns the result.
+
+How it Works:
+Creates a route (URL) for the application.
+Does not create a webpage directly but renders one using render_template or returns data (like JSON).
+Can lead to another webpage if the function returns render_template("another_page.html").
