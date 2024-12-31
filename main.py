@@ -22,5 +22,4 @@ def stat(station):
     result = df.to_dict(orient="records")
     return result
 
-if __name__=="__main__":
-    app.run(debug=True)
+
